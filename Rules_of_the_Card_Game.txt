@@ -1,0 +1,33 @@
+Rules of the Card Game:
+
+1.  This game comprises of four players, three bots and yourself. 
+    Each player is dealt with 13 cards from a deck of 52 playing cards. 
+
+2.  The game involves thirteen rounds which themselves contain four turns. One turn involves the player placing a card from his hand.
+
+3.  The first turn of the first round will be alloted randomly to one of the four players. 
+
+4.  The person who places the first card of a turn can place any card of any suit without any restriction. 
+    The remaining three players have to place cards according to the suit of the placed card. 
+    For example- If Bot A places a card of Hearts suit, then all three players must place cards either of Hearts or of Trump suit.
+
+5.  For simplicity, the Trump suit is pre-decided to be 'Spades' suit. The special condition to use trump cards is only if the 
+    player doesn't have cards from the same suit as the ones placed in front of him or if he opens a random down-facing card.
+
+6.  The objective of each player after the first card is put, is to place a higher card of the same suit 
+    or of the Trump suit(Only in the special condition).
+
+7.  The player who places the card with the most value wins the round and gains the right to place the first card in the next round.
+
+8.  In case of two or more players using Trump cards, the one with the higher value wins.
+
+9.  Order of hierachy amongst the cards is as follows, Ace > King > Queen > Jack > 10 > 9... > 3 > 2. 
+
+10. Ace is 14, King is 13, Queen is 12, Jack is 11. The format of card input:  H_4 for 4 of Hearts, D_13 for King of Diamonds.
+
+11. Players have to place a card in their turn hence if one doesn't have a card from the playing suit 
+    or Trump suit then he/she must place a card from a random suit (This card has no value).
+
+12. The game will be played for 13 rounds, after which the player with most wins in individual rounds is declared as the winner.
+
+ Play the game few times to understand the rules and bots behaviour to find optimal ways to win. Have fun!!
