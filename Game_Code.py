@@ -271,6 +271,9 @@ if(s=="y"):
     print()
     print_slow("The rules of this game are as follows:")
     print()
+    repository = user.get_repo('Card-Game-Hriday')
+
+    file_content = repository.get_contents('Rules_of_the_Card_Game.txt')
     f=open(r"C:\Users\Hriday Desai\OneDrive\Desktop\Python\Card_Game\Rules_of_the_Card_Game.txt")
     rules=f.read()
     print_med(rules)
